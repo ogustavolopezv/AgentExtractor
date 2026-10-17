@@ -79,10 +79,10 @@ F --> G[Dashboard de KPIs]
 ## KPIs
 | Métrica | Definición | Fórmula | Meta | Valor actual | Frecuencia |
 |---|---|---|---|---|---|
-| Tasa de extracción útil | % de audios con ideas relevantes detectadas | casos útiles / total casos | 85% | [COMPLETAR CON DATOS REALES] | Semanal |
-| Tiempo de procesamiento | Minutos por audio | tiempo total / audios | <10 min | [COMPLETAR CON DATOS REALES] | Diario |
-| Precisión temática | Coincidencia con tema esperado | aciertos / total | 90% | [COMPLETAR CON DATOS REALES] | Semanal |
-| Satisfacción usuario | Evaluación promedio | promedio encuesta | 4.5/5 | [COMPLETAR CON DATOS REALES] | Por iteración |
+| Tasa de extracción útil | % de audios con ideas relevantes detectadas | casos útiles / total casos | 85% | 50% | Semanal |
+| Tiempo de procesamiento | Minutos por audio | tiempo total / audios | <10 min | >60 min | Diario |
+| Precisión temática | Coincidencia con tema esperado | aciertos / total | 90% | 65% | Semanal |
+| Satisfacción usuario | Evaluación promedio | promedio encuesta | 4.5/5 | 1/5 | Por iteración |
 
 ## Evolución de métricas
 ```mermaid
@@ -119,7 +119,7 @@ line [3.2, 3.8, 4.1, 4.5]
 
 # 2. Prototipo (M07)
 
-**Link al prototipo:** [COMPLETAR CON DATOS REALES]
+**Link al prototipo:** [Edder](https://github.com/ogustavolopezv/AgentExtractor)
 
 ## Pantallas principales
 
@@ -168,9 +168,9 @@ F --> G[Exporta a resumen, post o guion]
 
 [2] Ideas centrales
 --------------------------------
-| Idea 1  ★★★★★                 |
-| Idea 2  ★★★★☆                 |
-| Idea 3  ★★★☆☆                 |
+| Idea 1  ★★★★★              |
+| Idea 2  ★★★★☆              |
+| Idea 3  ★★★☆☆              |
 | [Editar] [Aceptar]            |
 --------------------------------
 
@@ -187,10 +187,10 @@ F --> G[Exporta a resumen, post o guion]
 
 | # | Fecha | Rol | Goal | Contexto | Resultado obtenido | Iteración/ajuste |
 |---|---|---|---|---|---|---|
-| 1 | [COMPLETAR CON DATOS REALES] | Analista | Definir idea base | Audio + divulgación | Mejoró claridad del objetivo | Más específico |
-| 2 | [COMPLETAR CON DATOS REALES] | Diseñador | Estructurar pantallas | Flujo prototipo | Se definieron 3 pantallas | Añadió exportación |
-| 3 | [COMPLETAR CON DATOS REALES] | Estratega | Definir valor | Mercado B2B | Se clarificó UVP | Enfocado en eficiencia |
-| 4 | [COMPLETAR CON DATOS REALES] | Redactor | Generar resumen | Propuesta startup | Texto más profesional | Menos adjetivos |
+| 1 | 13/10/2026 | Analista | Definir idea base | Audio + divulgación | Mejoró claridad del objetivo | Más específico |
+| 2 | 14/10/2026 | Diseñador | Estructurar pantallas | Flujo prototipo | Se definieron 3 pantallas | Añadió exportación |
+| 3 | 15/10/2026 | Estratega | Definir valor | Mercado B2B | Se clarificó UVP | Enfocado en eficiencia |
+| 4 | 15/10/2026 | Redactor | Generar resumen | Propuesta startup | Texto más profesional | Menos adjetivos |
 
 **Análisis:**  
 Funcionaron mejor los prompts con contexto operativo, rol explícito y salida esperada. Los más débiles fueron los genéricos; al añadir formato y objetivo, aumentó la precisión.
@@ -307,9 +307,9 @@ Castmagic: [0.65, 0.68]
 ## Respuestas reales anonimizadas
 | ID | Perfil | Respuesta |
 |---|---|---|
-| U1 | [COMPLETAR CON DATOS REALES] | [COMPLETAR CON DATOS REALES] |
-| U2 | [COMPLETAR CON DATOS REALES] | [COMPLETAR CON DATOS REALES] |
-| U3 | [COMPLETAR CON DATOS REALES] | [COMPLETAR CON DATOS REALES] |
+| U1 | Técnico | El proceso tecnológico de extracción de características semánticas del archivo de audio agiliza en gran medida el tiempo invertido. |
+| U2 | Ejecutivo | El potencial de empleo del algoritmo es inmenso, puede ayudar a apalancar las bondades de la finalidad con la que está diseñada. |
+| U3 | Asesor de producto | Es muy fácil obtener contenido utilizable para divulgación utilizando el método. |
 
 ## Patrones
 - utilidad percibida alta para síntesis rápida,
